@@ -8,5 +8,5 @@ X1_k = fft(x1);
 X2_k = fft(x2);
 Y1_k = X1_k.*X2_k;
 y1 = ifft(Y1_k);
-disp("The result iss:")
+disp("The result is:")
 disp(y1);
